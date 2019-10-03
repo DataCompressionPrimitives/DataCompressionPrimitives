@@ -124,44 +124,62 @@ compression accessible to most programmers.
 ### Statistical and Adaptive Encoding
 
 - Shannon Fano Coding and SerDe
+  - [Example](https://github.com/jigar23/Entropycoding/tree/master/EntropyCoding/src/ShannonFano)
 - Tunstall Coding and SerDe
 - Huffman Tree Coding and SerDe
+  - [Example](https://github.com/jigar23/Entropycoding/tree/master/EntropyCoding/src/Huffman)
 - Arithmetic Encoding and SerDe
+  - [Example](https://github.com/nayuki/Reference-arithmetic-coding/blob/master/java/src/ArithmeticCoderBase.java)
 - ANS Encoding and SerDe
+  - [Example](https://github.com/EhomeBurning/Asymmetric-Numeral-Systems/blob/master/main.cpp)
 - Start-Stop Encoding and SerDe (Regular and Start-Step-Stop)
   - [Example](https://github.com/danaj/BitStream/blob/master/lib/Data/BitStream/Code/StartStop.pm)
 - Delta Encoding and SerDe
+  - [Example](https://en.wikipedia.org/wiki/Delta_encoding)
 - Range Encoding and SerDe
+  - [Example](https://github.com/apronchenkov/RangeCode/blob/master/coder.h)
 - Roaring Bitmaps and SerDe
+  - [Example](https://github.com/RoaringBitmap/RoaringBitmap)
 
 ### Contextual Encoding
 
 - CABAC and SerDe
-- BWT and SerDe
+  - [Example](https://github.com/jigar23/CABAC)
+- BWT and SerDe (Regular, SuffixTree)
+  - [Example](https://github.com/egonelbre/fm-index/blob/master/src/bwt.py)
 - ACB and SerDe
+  - [Example](http://www.stringology.org/DataCompression/acb/index_en.html)
 - DMC and SerDe
+  - [Example](https://github.com/sporkmonger/squish/blob/master/src/lib/state.ml)
 - CTW and SerDe
+  - [Example](https://github.com/gabeschamberg/context-tree-weighting/blob/master/ctw.py)
 - PPM and SerDe
+  - [Example](https://github.com/gosoares/ITI-PPM/blob/master/PpmEncoder.kt)
 - RLE and SerDe
+  - [Example](https://github.com/powturbo/TurboRLE)
 - MTF and SerDe
+  - [Example](https://github.com/liam60/MTFEncoder/blob/master/WordList.java)
 
 ### Dictionary Encoding
 
 - Byte Pair Encoding and SerDe
-- Byte Offset Encoding and SerDe
-- Flushable Symbols and SerDe
+  - [Example](https://github.com/soaxelbrooke/python-bpe)
 - N-Gram Coding and SerDe + Variants
+  - [Example](https://github.com/yassineameur/one_hot_encoder)
 - LZ Encoding and SerDe + Variants
-- Snappy Encoding and SerDe
-- Brotli and SerDe + Variants
+  - [Example](https://github.com/gusrsilva/Lempel-Ziv-Welch-Compression/blob/master/src/ZivLempel.java)
 - ZStandard and SerDe + Variants
+  - [Example](https://github.com/noop-dev/Zstandard/blob/master/java/src/main/java/rtmath/zstd/ZstdDecompressor.java)
+- Snappy Encoding and SerDe
+  - [Example](https://github.com/dain/snappy/blob/master/src/main/java/org/iq80/snappy/SnappyCompressor.java)
+- Brotli and SerDe + Variants
+  - [Example](https://github.com/dominikhlbg/BrotliHaxe/blob/master/python/brotli.py)
 
 ### Iterators
 
 - ZigZag Iterator
 - Slurm Iterator
 - Interleaving Iterator
-- Edit Distance Iterator
 
 ### Lossy Encoding
 
@@ -183,13 +201,13 @@ compression accessible to most programmers.
 
 ### Specialized Data Encoding
 
-- Color Format Convertor (Frequency/Intensity, HSV, RGV etc) and SerDe
+- Color Format Convertor (Frequency/Intensity, HSV, RGV etc)
 - Wave Generator (Sample, Frequency, Intensity)
-- Temporal Accumulator
-- Motion Predictor
-- Background Value Finder
-- Shape Binner
-- Shape Potracer
+- Motion Predictor (Video)
+- Background Value Finder (DJVU)
+- Shape Binner (DJVU, Potrace)
+- Stream Delta Encoder
+  - [Example](https://github.com/eerimoq/detools)
 
 ## References for Reading
 
